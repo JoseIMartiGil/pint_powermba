@@ -1,0 +1,59 @@
+nav {
+ border-bottom: 1px solid black;
+}
+a {
+ text-decoration: none;
+ color: #000;
+}
+.crumbs ul {
+ list-style-type: none;
+ padding-left: 0;
+}
+
+.crumb {
+ display: inline-block;
+}
+.crumb a::after {
+ display: inline-block;
+ color: #000;
+ content: '>';
+ font-size: 80%;
+ font-weight: bold;
+ padding: 0 3px;
+}
+
+ul > li {
+ display: inline-block;
+}
+.container {
+ display: flex;
+ justify-content: space-between;
+}
+.column {
+ flex: 1;
+ margin: 10px;
+}
+.column img {
+ width: 100%;
+ margin-bottom: 10px;
+}
+section.bg {
+ width: 50%;
+ max-width: 100%;
+ background-image: url('https://s.pinimg.com/webapp/shop-de8ddf10.png');
+ height: 500px;
+}
+section.rigth_text {
+ flex: 1;
+ width: 250px;
+ max-width: 100%;
+ background-color: pink;
+}
+.button {
+ display: inline-block;
+ padding: 10px 20px;
+ color: white;
+ background-color: red;
+ border-radius: 10px;
+ text-align: center;
+}
